@@ -25,7 +25,7 @@ Here are some ideas to get you started:
 
 <!-- Testing out that this comment works... -->
 
-Hi, I am testing all of this out right now :)
+**Hi, I am testing all of this out right now :)**
 
 <details>
 <summary>My top languages</summary>
@@ -36,6 +36,40 @@ Hi, I am testing all of this out right now :)
 |     2| MATLAB         |
 |     3| R              |
 |     4| C++            |
+
+</details>
+
+**We can also format this as a list.**
+
+<details>
+<summary>My top languages</summary>
+
+- Python
+- MATLAB
+- R
+- C++
+
+</details>
+
+**Or in another way...**
+
+<details>
+<summary>My top languages</summary>
+
+1. Python
+2. MATLAB
+3. R
+4. C++
+
+</details>
+
+**We could even try a nested list.**
+<details>
+<summary>My top languages</summary>
+
+1. Python
+   - MATLAB
+     - R
 
 </details>
 
@@ -69,4 +103,10 @@ Another way of inputting a picture is like this:
 
 ![A picture of the Cal Poly arms](https://upload.wikimedia.org/wikipedia/en/d/d9/CalPoly_Seal.svg)
 
-Let's try referencing a file from another repository. I made a [file called `index.md`](/../../../communicate-using-markdown/blob/main/index.md/) in another GitHub skills tutorial.
+Let's try referencing a file from another repository. I made a [file called `index.md`](/../../../communicate-using-markdown/blob/main/index.md/) in another GitHub skills tutorial. :+1:
+
+We can cite sources too![^1] This'll be great.
+
+[^1]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes
+
+\#Escaping Markdown syntax by putting a backslash first

@@ -110,3 +110,11 @@ We can cite sources too![^1] This'll be great.
 [^1]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes
 
 \#Escaping Markdown syntax by putting a backslash first
+
+```Python
+# This program prints Hello, world!
+
+print('Hello, world!')
+```
+Throwing some Python code in for proof of concept. Using docs here[^2] for reference.
+[^2]: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks#syntax-highlighting

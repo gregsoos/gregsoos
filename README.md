@@ -10,7 +10,7 @@ My introduction to coding began earlier, however, during my first two years of u
 
 I spent my last two years of undergraduate study at the **University of Pennsylvania**, earning a Bachelor of arts in physics with a minor in mathematics. Through both my classes and research there, I picked up a variety of languages, chief among them being Python. 
 
-In the hopes of showcasing some of those skills I've picked up, I've uploaded a variety of my code from the past six years in a number of repositories. If you're not me and you're reading this, and you're actually interested in seeing any of that, I hope you enjoy! 
+In the hopes of showcasing some of those skills I've picked up, I've uploaded a variety of my code from the past six years in a number of repositories. If you're not me and you're reading this, and you're actually interested in seeing any of that, I hope you enjoy!
 
 ---
 
@@ -18,12 +18,13 @@ In the hopes of showcasing some of those skills I've picked up, I've uploaded a 
 
 <details>
 <summary>Perceptron</summary>
+    
+<span markdown='1'>
+</span> <!-- This lets the footnotes that are in markdown syntax work inside the HTML details block -->   
+
 The perceptron represents one of the earliest great leaps for machine learning. Invented in 1943 by Warren McCulloch and Walter Pitts[^1], and first put into application in 1958 by Frank Rosenblatt[^2], the idea is quite simple. You give the perceptron a certain input, and the perceptron responds by telling you whether that input belongs to a specified class. For example, say we want our perceptron to tell us whether something is a quadrilateral. We give it a series of many quadrilaterals and non-quadrilaterals (circles, triangles, etc.), and over time the perceptron should "learn" to distinguish quadrilaterals from non-quadrilaterals.
 
 In practice, the perceptron is quite rudimentary and has limitations to achieving 100% identification. However, given enough time to learn, the perceptron can become significantly better than random guessing. Below, I will include a sample of code and a repository link for a perceptron I programmed to distinguish filled-in rectangles from unfilled rectangles. After 100,000 trials of randomly generating either a filled or unfilled rectangle, the perceptron was able correctly to identify the rectangle class roughly 67% of the time.
-
-[^1]: McCulloch, W; Pitts, W (1943). ["A Logical Calculus of Ideas Immanent in Nervous Activity"](https://www.bibsonomy.org/bibtex/13e8e0d06f376f3eb95af89d5a2f15957/schaul). Bulletin of Mathematical Biophysics. 5: 115–133.
-[^2]: Rosenblatt, F. (1958). [The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fh0042519). Psychological Review, 65(6), 386-408.
 
 ```Python
 #Let's generate the weight array for a given n trials (say, let's start with 100k)
@@ -71,6 +72,9 @@ while i<trials:
 If the details of what the weights, bias, dot products, etc. all mean in the above context, don't worry! Just check out my repository where I explain all this in the readme.
 </details>
 
+[^1]: McCulloch, W; Pitts, W (1943). ["A Logical Calculus of Ideas Immanent in Nervous Activity"](https://www.bibsonomy.org/bibtex/13e8e0d06f376f3eb95af89d5a2f15957/schaul). Bulletin of Mathematical Biophysics. 5: 115–133.
+[^2]: Rosenblatt, F. (1958). [The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fh0042519). Psychological Review, 65(6), 386-408.
+    
 ## MATLAB
 
 <!--
@@ -82,7 +86,7 @@ If the details of what the weights, bias, dot products, etc. all mean in the abo
 Hey! If you're still reading this far down, mind if I self-promote one thing? One of my biggest passions is physics, and in the years since college, I started a YouTube channel to go through some physics problems from undergraduate and graduate textbooks. If that interests you, the channel is called [Greg Does Physics](https://www.youtube.com/channel/UCowsP9riC0Jspn6ndGpfzqA). Check it out if you want!
 
 
-
+    
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="https://upload.wikimedia.org/wikipedia/commons/9/92/UPenn_shield_with_banner.svg">
  <source media="(prefers-color-scheme: light)" srcset="https://upload.wikimedia.org/wikipedia/commons/9/92/UPenn_shield_with_banner.svg">
@@ -92,7 +96,9 @@ Hey! If you're still reading this far down, mind if I self-promote one thing? On
 Another way of inputting a picture is like this:
 ![A picture of the Cal Poly arms](https://upload.wikimedia.org/wikipedia/en/d/d9/CalPoly_Seal.svg)
 
+<!--    
 <sub>1</sub> <sup>2</sup>H (Deuterium for life baby) <sub> Oh gosh it doesn't look right </sub>
 Added backticks let's us do this: `git push`
 Let's try referencing a file from another repository. I made a [file called `index.md`](/../../../communicate-using-markdown/blob/main/index.md/) in another GitHub skills tutorial. :+1:
 \#Escaping Markdown syntax by putting a backslash first
+-->

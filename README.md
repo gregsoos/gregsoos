@@ -38,7 +38,7 @@ Below are a handful of repositories that might provide further insight on what k
 ## C++
 -->
 
-While coding has come to be one of my great passions, physics still firmly belongs on that mantle as well. In the years since college, I even started a YouTube channel to go through some physics problems from undergraduate and graduate textbooks. If that interests you, the channel is called [Greg Does Physics](https://www.youtube.com/channel/UCowsP9riC0Jspn6ndGpfzqA). Check it out if you want!
+While coding has come to be one of my great passions, physics still firmly claims that distinction as well. In the years since college, I even started a YouTube channel to go through some physics problems from undergraduate and graduate textbooks. If that interests you, the channel is called [Greg Does Physics](https://www.youtube.com/channel/UCowsP9riC0Jspn6ndGpfzqA). Check it out if you want!
 
 
  <!--     
